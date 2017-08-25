@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A61A76FD1F4FD2B3000FD824 /* RNMall.m in Sources */ = {isa = PBXBuildFile; fileRef = A61A76FC1F4FD2B3000FD824 /* RNMall.m */; };
+		A61A76FE1F4FD2B3000FD824 /* RNMall.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A61A76FB1F4FD2B3000FD824 /* RNMall.h */; };
+		A61A771D1F5014BF000FD824 /* RNMallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A61A771C1F5014BF000FD824 /* RNMallViewController.m */; };
+		A61A77201F5016E6000FD824 /* RNMallVIPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A61A771F1F5016E6000FD824 /* RNMallVIPViewController.m */; };
+		A61A77231F5016FD000FD824 /* RNMallOrdersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A61A77221F5016FD000FD824 /* RNMallOrdersViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A61A76F61F4FD2B3000FD824 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				A61A76FE1F4FD2B3000FD824 /* RNMall.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A61A76F81F4FD2B3000FD824 /* libRNMall.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNMall.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A61A76FB1F4FD2B3000FD824 /* RNMall.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNMall.h; sourceTree = "<group>"; };
+		A61A76FC1F4FD2B3000FD824 /* RNMall.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNMall.m; sourceTree = "<group>"; };
+		A61A771B1F5014BF000FD824 /* RNMallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNMallViewController.h; sourceTree = "<group>"; };
+		A61A771C1F5014BF000FD824 /* RNMallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNMallViewController.m; sourceTree = "<group>"; };
+		A61A771E1F5016E6000FD824 /* RNMallVIPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNMallVIPViewController.h; sourceTree = "<group>"; };
+		A61A771F1F5016E6000FD824 /* RNMallVIPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNMallVIPViewController.m; sourceTree = "<group>"; };
+		A61A77211F5016FD000FD824 /* RNMallOrdersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNMallOrdersViewController.h; sourceTree = "<group>"; };
+		A61A77221F5016FD000FD824 /* RNMallOrdersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNMallOrdersViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A61A76F51F4FD2B3000FD824 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A61A76EF1F4FD2B3000FD824 = {
+			isa = PBXGroup;
+			children = (
+				A61A76FA1F4FD2B3000FD824 /* RNMall */,
+				A61A76F91F4FD2B3000FD824 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A61A76F91F4FD2B3000FD824 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A61A76F81F4FD2B3000FD824 /* libRNMall.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A61A76FA1F4FD2B3000FD824 /* RNMall */ = {
+			isa = PBXGroup;
+			children = (
+				A61A76FB1F4FD2B3000FD824 /* RNMall.h */,
+				A61A76FC1F4FD2B3000FD824 /* RNMall.m */,
+				A61A771B1F5014BF000FD824 /* RNMallViewController.h */,
+				A61A771C1F5014BF000FD824 /* RNMallViewController.m */,
+				A61A771E1F5016E6000FD824 /* RNMallVIPViewController.h */,
+				A61A771F1F5016E6000FD824 /* RNMallVIPViewController.m */,
+				A61A77211F5016FD000FD824 /* RNMallOrdersViewController.h */,
+				A61A77221F5016FD000FD824 /* RNMallOrdersViewController.m */,
+			);
+			path = RNMall;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A61A76F71F4FD2B3000FD824 /* RNMall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A61A77011F4FD2B3000FD824 /* Build configuration list for PBXNativeTarget "RNMall" */;
+			buildPhases = (
+				A61A76F41F4FD2B3000FD824 /* Sources */,
+				A61A76F51F4FD2B3000FD824 /* Frameworks */,
+				A61A76F61F4FD2B3000FD824 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNMall;
+			productName = RNMall;
+			productReference = A61A76F81F4FD2B3000FD824 /* libRNMall.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A61A76F01F4FD2B3000FD824 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = iqiyi;
+				TargetAttributes = {
+					A61A76F71F4FD2B3000FD824 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A61A76F31F4FD2B3000FD824 /* Build configuration list for PBXProject "RNMall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A61A76EF1F4FD2B3000FD824;
+			productRefGroup = A61A76F91F4FD2B3000FD824 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A61A76F71F4FD2B3000FD824 /* RNMall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A61A76F41F4FD2B3000FD824 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A61A77201F5016E6000FD824 /* RNMallVIPViewController.m in Sources */,
+				A61A771D1F5014BF000FD824 /* RNMallViewController.m in Sources */,
+				A61A76FD1F4FD2B3000FD824 /* RNMall.m in Sources */,
+				A61A77231F5016FD000FD824 /* RNMallOrdersViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A61A76FF1F4FD2B3000FD824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../RNApp/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A61A77001F4FD2B3000FD824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../RNApp/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A61A77021F4FD2B3000FD824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A61A77031F4FD2B3000FD824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A61A76F31F4FD2B3000FD824 /* Build configuration list for PBXProject "RNMall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A61A76FF1F4FD2B3000FD824 /* Debug */,
+				A61A77001F4FD2B3000FD824 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A61A77011F4FD2B3000FD824 /* Build configuration list for PBXNativeTarget "RNMall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A61A77021F4FD2B3000FD824 /* Debug */,
+				A61A77031F4FD2B3000FD824 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A61A76F01F4FD2B3000FD824 /* Project object */;
+}
