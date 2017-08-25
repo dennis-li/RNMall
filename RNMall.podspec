@@ -22,7 +22,7 @@ s.version      = "0.0.0"
 #  s.resources = ['React.xcassets']
 
   s.dependency 'React'
-
+s.dependency 'DLModulesCenter'
  s.framework = 'SystemConfiguration'
  s.preserve_paths = 'Release'
  s.ios.vendored_libraries = 'Release/libRNMall.a'
