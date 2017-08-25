@@ -2,8 +2,8 @@
 
 buildPath=`pwd`
 arch="Release"
-target="VIPCenter"
-projectPath="VIPCenter.xcodeproj"
+target="RNMall"
+projectPath="RNMall.xcodeproj"
 hederFile="Include"
 sourceFile="Release"
 

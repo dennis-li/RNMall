@@ -46,10 +46,10 @@ createNewVersion()
     echo $newVersion$suffix
 }
 
-./buildVIPCenter.sh
+./buildRNMall.sh
 verifyOperation 
 
-podName="VIPCenter"
+podName="RNMall"
 
 #提取代码版本所在行
 git pull origin master
