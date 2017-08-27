@@ -24,11 +24,11 @@
     
     self.view.backgroundColor = [UIColor whiteColor];
     
+    
     UIButton *backButton = [UIButton new];
-    backButton.frame = CGRectMake(20, 20, 100, 30);
-    backButton.backgroundColor = [UIColor redColor];
+    backButton.frame = CGRectMake(20, 20, 30, 30);
     [self.view addSubview:backButton];
-    [backButton setTitle:@"返回" forState:UIControlStateNormal];
+    [backButton setImage:[UIImage imageNamed:@"icon_wgift"] forState:UIControlStateNormal];
     [backButton addTarget:self action:@selector(back:) forControlEvents:UIControlEventTouchUpInside];
     
     UIButton *button = [UIButton new];

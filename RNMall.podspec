@@ -19,7 +19,7 @@ s.version      = "0.0.1"
 
   s.source_files = 'Include/*.h'
   s.public_header_files = 'Include/*.h'
-#  s.resources = ['React.xcassets']
+ s.resources = ['Resources/*']
 
   s.dependency 'React'
 s.dependency 'DLModulesCenter'
