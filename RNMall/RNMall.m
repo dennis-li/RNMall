@@ -14,7 +14,7 @@
 
 + (void) load
 {
-    [DLModulesManager registerByModuleID:@"66" className:NSStringFromClass([self class])];
+    [DLModulesManager registerByModuleID:@"RNMall" className:NSStringFromClass([self class])];
 }
 
 + (void) launchWithParam:(DLModuleParameter *)param
@@ -27,7 +27,7 @@
     
     NSString *subID = [params objectForKey:@"subID"];
     
-    if ([subID isEqualToString:@"0"]) {
+    if ([subID isEqualToString:@"main"]) {
         
         RNMallViewController *vc = [RNMallViewController new];
         [rootVC presentViewController:vc animated:YES completion:^{
