@@ -21,7 +21,7 @@ s.version      = "0.0.3"
   s.public_header_files = 'Include/*.h'
  s.resources = ['Resources/*']
 
-  s.dependency 'React'
+  s.dependency 'React_debug'
 s.dependency 'DLModulesCenter'
  s.framework = 'SystemConfiguration'
  s.preserve_paths = 'Release'
